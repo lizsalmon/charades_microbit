@@ -1,4 +1,5 @@
 input.onGesture(Gesture.ScreenUp, function () {
+    // skip sequence
     if (index < array_of_words.length) {
         music.play(music.builtinPlayableSoundEffect(soundExpression.slide), music.PlaybackMode.UntilDone)
         led.stopAnimation()
